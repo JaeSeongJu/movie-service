@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://JooJaeSeong.github.io/movie-service",
+  "homepage": "https://tender-darwin-0a3543.netlify.app ",
   "browserslist": {
     "production": [
       ">0.2%",
