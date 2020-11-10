@@ -32,6 +32,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://JooJaeSeong.github.io/movie-service",
   "browserslist": {
     "production": [
       ">0.2%",
