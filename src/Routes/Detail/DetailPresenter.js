@@ -169,7 +169,10 @@ const DetailPresenter = ({ result, loading, error }) =>
           <Overview>{result.overview}</Overview>
           <Info>
             {result.videos.results[0] !== undefined ? (
-              <Trailer videoId={result.videos.results.key}></Trailer>
+              <Trailer
+                id={result.videos.results[0].id}
+                videoId={result.videos.results[0].key}
+              ></Trailer>
             ) : (
               <Item>NO Trailer on YouTube</Item>
             )}
